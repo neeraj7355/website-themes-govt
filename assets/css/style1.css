@@ -1,0 +1,417 @@
+
+.quick-link-content p {
+  text-align: justify;
+}
+
+/* Top header */
+.top-header {
+  background: #F1F1F1;
+  /* Styles for top header */
+}
+.top-header .topbar {
+  height: 100%;
+}
+.top-header .topbar ul {
+  margin-bottom: 0;
+}
+.top-header .topbar ul li button {
+  border: none;
+  position: absolute;
+  top: 33%;
+  right: 14px;
+  background: transparent;
+}
+.top-header .topbar ul li select {
+  border: none;
+  border-radius: 20px;
+  /* padding: 2px 13px; */
+}
+.top-header .topbar ul li select:focus {
+  outline: none;
+}
+.top-header .topbar li {
+  font: normal normal normal 12px/12px Poppins;
+  padding: 7px;
+  position: relative;
+  color: #363636;
+}
+.top-header .topbar li a {
+  text-decoration: none;
+  color: #363636;
+}
+.top-header .topbar li a i {
+  color: #3F51B5;
+}
+.top-header .topbar input {
+  width: 105px;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 13px;
+}
+
+/* Navigation header */
+.main-nav {
+  height: 70px;
+  width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  /* position: absolute;
+  bottom: 45px;
+  right: 102px; */
+}
+
+.navbar-nav .nav-link {
+  padding: 2px;
+  font: normal normal 16px/27px Poppins;
+  color: #3E3E3E !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff !important;
+  background: #3F51B5;
+  border-radius: 24px;
+  padding: 1px 15px;
+  filter: drop-shadow(0px 0px 1px #fff);
+}
+
+li.nav-item {
+  padding: 4px;
+}
+
+
+@media (max-width: 992px) {
+  section.minister-memory .memory-text h3 {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: unset !important;
+  }
+  .navbar-nav {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    z-index: 2;
+    background: #0e63d6;
+    color: #fff;
+    width: 100%;
+  }
+  .navbar-nav .nav-item {
+    padding: 4px;
+    text-align: center;
+    background: #3f51b5;
+    border-bottom: 1px solid #ffffff;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+  }
+  li.socion-icon {
+    display: none !important;
+  }
+  .top-header .topbar ul {
+    flex-wrap: wrap;
+  }
+  .logo-header .logo a {
+    padding: 0px 9px;
+  }
+  .logo-header .logo {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .logo img {
+    width: 72px;
+    height: 72px;
+  }
+  .logo-header .logo-text h1 {
+    font: normal normal bold 19px/23px Tahoma;
+    color: #3F51B5;
+  }
+  .logo-header .logo-text h2 {
+    font: normal normal normal 15px/22px Tahoma;
+  }
+  .logo-header .logo-text p {
+    font: normal normal normal 13px/17px Tahoma;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gallery span.gallery-bottom-text {
+    font-size: 14px;
+    padding: 10px 19px;
+    height: 68px;
+    background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  }
+  .gallery .product {
+    /* display: flex; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 395px !important;
+  }
+  .topbar .web-access {
+    display: none !important;
+  }
+  .quick-links-section .quick-link-content {
+    padding: 0;
+  }
+  li.socion-icon {
+    display: none !important;
+  }
+  .footer .footer-content .title {
+    text-align: left;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .footer {
+    background-color: #3F51B5;
+    padding: 40px 0 0 0;
+  }
+  .footer .footer-logo h4.title {
+    text-align: center !important;
+    padding: 7px 0px 8px 0;
+  }
+  .ps-4 {
+    padding-left: 8px !important;
+    padding: 0;
+  }
+  .footer .border-left {
+    border-left: unset;
+  }
+  .top-header .topbar ul {
+    flex-wrap: wrap;
+  }
+  li.search {
+    display: none;
+  }
+  .logo-text p {
+    display: none;
+  }
+  .py-lg-37 {
+    padding: 15px;
+  }
+  .thumbnail-card {
+    padding-bottom: 10px;
+  }
+  .logo-header .logo a {
+    padding: 0px 9px;
+  }
+  .logo-header .logo {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+  }
+  .logo img {
+    width: 72px;
+    height: 72px;
+  }
+  .logo-header .logo button {
+    margin: 10px auto;
+  }
+  .logo-header .logo-text h1 {
+    font: normal normal bold 19px/23px Tahoma;
+    color: #3F51B5;
+  }
+  .logo-header .logo-text h2 {
+    font: normal normal normal 15px/22px Tahoma;
+  }
+  .logo-header .logo-text p {
+    font: normal normal normal 13px/17px Tahoma;
+    margin: 0;
+  }
+  section.minister-memory .memory-text:before {
+    display: none;
+  }
+  .about-text {
+    margin-top: 115px;
+    padding: 0 43px;
+  }
+  .about-section {
+    padding: 18px 0;
+  }
+  .title {
+    font: normal normal bold 21px/35px Poppins;
+    text-align: center;
+  }
+  .minister-memory .pt-4 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .media-alert-section {
+    padding: 27px 8px;
+    background: #FFFFFF;
+  }
+  .button-center {
+    margin: auto;
+    text-align: center;
+  }
+  .quick-links-section .nav-tabs .nav-item.show .nav-link, .quick-links-section .nav-tabs .nav-link.active {
+    font: normal normal bold 12px/25px Poppins;
+  }
+  .quick-links-section .nav-tabs .nav-link {
+    font: normal normal normal 11px/25px Poppins;
+    letter-spacing: 0.32px;
+    font-weight: 600;
+  }
+  .quick-links-section .tab-content {
+    padding: 0px 0;
+  }
+  .quick-links-section {
+    padding-bottom: 40px;
+  }
+  .document-section .document-content {
+    padding: 10px 19px;
+    margin: 5px;
+  }
+  .gallery .gallery-text {
+    padding: 0px 25px;
+    margin: 13px 0;
+  }
+  .gallery .splide__slide {
+    height: 67px !important;
+  }
+  div#accordionExample {
+    padding: 0px 15px;
+  }
+  .p-5 {
+    padding: 1rem !important;
+  }
+  .faq .title {
+    padding: 15px;
+  }
+  .faq-section .faq .accordion-button:not(.collapsed) {
+    font: normal normal normal 14px/20px Poppins;
+    padding: 7px 16px;
+  }
+  .faq-section .faq .accordion-button {
+    font: normal normal normal 14px/20px Poppins;
+    padding: 7px 16px;
+  }
+  .accordion-body {
+    padding: 1px 11px;
+  }
+  .splide__slide img {
+    vertical-align: bottom;
+    width: 53px;
+    height: 53px;
+    -o-object-fit: scale-down;
+    object-fit: scale-down;
+  }
+  .text-end {
+    text-align: left !important;
+  }
+  .footer .border-right {
+    border-right: 0px solid #fff;
+  }
+  .footer-content {
+    padding-top: 20px;
+  }
+  .footer .footer-content ul {
+    padding-left: inherit;
+    padding: 0 10px;
+  }
+  section.minister-memory .text h3 {
+    font: normal normal bold 18px/25px Poppins;
+  }
+  section.minister-memory {
+    overflow: hidden;
+    padding-bottom: 15px;
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 195%;
+    right: 0;
+  }
+  /* .swatch-bharat {
+    display: none;
+  } */
+  .top-header .topbar ul {
+    padding: 0;
+  }
+  .carousel-section .carousel-item {
+    height: 200px;
+  }
+  .carousel-section .carousel-inner {
+    height: 200px;
+  }
+  .carousel-section .carousel-item .banner-mask {
+    position: absolute;
+    width: 100%;
+    background: #3F51B5;
+    height: 100%;
+    padding: 34px;
+  }
+  .carousel-section .carousel-item .banner-mask .mask-text {
+    padding: 0;
+  }
+  .carousel-section .carousel-item .banner-mask .mask-text .mask-title {
+    color: #fff;
+    font: normal normal bold 16px/25px Arimo;
+  }
+  .carousel-section .carousel-item .banner-mask .mask-text p {
+    color: #fff;
+    font: normal normal normal 13px/20px Poppins;
+  }
+  .gallery .galery-wrapper {
+    background: rgba(241, 241, 241, 0.8);
+    padding: 10px 0;
+  }
+  .mob-width {
+    width: 50% !important;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+@media only screen and (max-width: 609px) and (min-width: 440px) {
+  .nrcp-logo {
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 991px) {
+  .navbar-nav {
+    bottom: 45px;
+    right: 0px;
+  }
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+
+/* ==========================================================================
+   lunchbox container
+ ========================================================================== */
+
+/* ==========================================================================
+   Swiper modifications
+ ========================================================================== */
+
+
+
+@media (min-width: 2000px) {
+  .main-container {
+    max-width: 1350px;
+    margin: auto;
+  }
+}
