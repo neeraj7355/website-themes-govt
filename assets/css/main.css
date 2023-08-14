@@ -17,6 +17,9 @@
   scroll-behavior: smooth;
 }
 
+.maing-container{
+  position: relative;
+}
 @font-face {
   font-family: 'Edu SA Beginner';
   src:  url('../font/Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf') format('ttf')
@@ -344,7 +347,7 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height:70px;
+  height:50px;
   background-color: var(--color-primary);
 }
 
@@ -415,7 +418,7 @@ section {
     justify-content: space-between;
     padding: 0 3px;
     font-family: var(--font-secondary);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     color: #fff;
     white-space: nowrap;
@@ -439,7 +442,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--color-secondary);
+    background-color:#ffcb00;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -456,7 +459,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #ffcb00;
   }
 
   .navbar .dropdown ul {
@@ -4365,6 +4368,7 @@ section.thumbnail-slider-section .product img {
 }
 .top-header .topbar ul {
   margin-bottom: 0;
+  /* position: relative; */
 }
 .top-header .topbar ul li button {
   border: none;
@@ -4377,6 +4381,10 @@ section.thumbnail-slider-section .product img {
   border: none;
   border-radius: 20px;
   /* padding: 2px 13px; */
+  border: none;
+    border-radius: 2px;
+    padding: 2px 2px;
+    box-shadow: 0px 0px 0px 1px;
 }
 .top-header .topbar ul li select:focus {
   outline: none;
@@ -4803,5 +4811,35 @@ li.nav-item {
   display: block;
   width: 50px;
   height: 0px;
+}
+
+#search{
+  position: absolute;
+  top: 4%;
+  display: none;
+  right: 28%;
+}
+#search input{
+  border: 1px solid #01409d;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
  
+}
+.search-now{
+  display: block !important;
+}
+
+#search button{
+  position: relative;
+  padding: 7px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #4d4add;
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+}
+#search a{
+  padding-left: 0;
 }

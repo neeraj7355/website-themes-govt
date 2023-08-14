@@ -300,3 +300,10 @@ $(document).ready(function(){
     });
   });
 })
+
+
+$(".search-now").click(function(){
+  $("#search").toggleClass("search-now");
+});
+var date = new Date();
+$(".date").text(date.toLocaleDateString());

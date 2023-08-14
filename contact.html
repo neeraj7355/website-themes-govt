@@ -9,22 +9,24 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
-    <!-- font awesome -->
 
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link href="assets/css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
-   
 
+
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <script src="./assets/js/code.jquery.com_jquery-3.7.0.js"></script>
 
 
@@ -59,13 +61,19 @@
                             <div class="col-lg-9 col-md-9">
                                 <div class="topbar d-flex align-items-center justify-content-end after-right">
                                     <ul class="d-flex align-items-center">
-                                        <li class="after-right"><a href="#"><i class="fa fa-home pe-2"
-                                                    aria-hidden="true"></i>Home</a></li>
+                                        <li class="after-right"><a href="./index.html"><i class="fa fa-home pe-2"
+                                                    aria-hidden="true"></i><span class="phone-topbar-menu">
+                                                    Home</span></a></li>
                                         <li class="after-right"><a href="#"> <i class="fa fa-sitemap pe-2"
                                                     aria-hidden="true"></i>
-                                                Sitemap</a></li>
-                                        <li class="after-right"> <a href="#contact">Skip to main content <i
-                                                    class="fa fa-arrow-up ps-2" aria-hidden="true"></i></a></li>
+                                                <span class="phone-topbar-menu">Sitemap</span></a></li>
+                                        <li class="after-right"> <a href="#about"><span class="phone-topbar-menu">Skip
+                                                    to main content </span><i class="fa fa-arrow-up ps-2"
+                                                    aria-hidden="true"></i></a></li>
+                                        <li class="after-right search-now "> <a href="#"> <i class="fa fa-search ps-2"
+                                                    aria-hidden="true"></i></a></li>
+                                        <li class="p-0" id="search"> <a href="#"> <input type="text"> </a>
+                                            <button>Search</button></li>
                                         <li class="after-right"><a href="#" title="screen reader assess"><i
                                                     class="fa fa-volume-up" aria-hidden="true"></i> </a></li>
                                         <li class="theme-text-size after-right">
@@ -75,8 +83,8 @@
                                             <a href="#" id="btn-increase">A+</a>
                                         </li>
                                         <li class="theme-mode after-right">
-                                            <a href="#" class="light-mode me-2" id="light-mode">A</a>
-                                            <a href="#" class="dark-mode" id="dark-mode">A</a>
+                                            <a href="#" class="light-mode me-2" id="light-mode">L</a>
+                                            <a href="#" class="dark-mode" id="dark-mode">D</a>
                                         </li>
 
                                         <li>
@@ -106,10 +114,10 @@
             <div class="logo-header">
                 <div class="container">
                     <div class="row ">
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 set-width1">
                             <div class="d-flex">
                                 <div class="logo">
-                                    <a href="./index.html" title="Government of India" aria-label="logo">
+                                    <a href="./index.html" title="Government of India">
 
                                         <img src="./assets/img/Government_of_India_logo.svg" alt="Government of India"
                                             title="Government of India">
@@ -126,7 +134,7 @@
                             </div>
 
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-6 col-md-6 set-width2">
                             <div class="logo dital-india">
                                 <!-- <button class="simple-button">Know Your Vaccination Schedule</button> -->
                                 <a href="#">
@@ -153,23 +161,24 @@
             <header id="header" class="header d-flex align-items-center">
 
                 <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-                    <a href="index.html" class="logo d-flex align-items-center" aria-label="logo">
+                    <a href="index.html" class="logo d-flex align-items-center" aria-label="site logo">
                         <!-- Uncomment the line below if you also wish to use an image logo -->
-                        <!-- <img src="assets/img/logo.png" alt=""> -->
+                        <img src="assets/img/Government_of_India_logo.svg" alt="Government of India" class="main-logo">
                         <!-- <h1>Impact<span>.</span></h1> -->
                     </a>
                     <nav id="navbar" class="navbar">
                         <ul>
                             <li><a href="./index.html" class="active">Home</a></li>
                             <li><a href="./about.html" class="">About</a></li>
-                            <li><a href="#" class="">Services</a></li>
+                            <li><a href="./services.html" class="">Services</a></li>
                             <!-- <li><a href="#portfolio" class="">Portfolio</a></li> -->
                             <!-- <li><a href="#team">Team</a></li> -->
-                            <!-- <li><a href="#">Blog</a></li> -->
-                            <li class="dropdown"><a href="#" >Drop Down<i class="bi dropdown-indicator bi-chevron-down"></i></a>
+                            <!-- <li><a href="blog.html">Blog</a></li> -->
+                            <li class="dropdown"><a href="#" class="">Drop Down <i
+                                        class="bi dropdown-indicator bi-chevron-down"></i></a>
                                 <ul class="">
                                     <li><a href="#">Drop Down 1</a></li>
-                                    <li class="dropdown"><a href="#" class=""><span>Deep Drop Down</span> <i
+                                    <li class="dropdown"><a href="#" class="">Deep Drop Down <i
                                                 class="bi dropdown-indicator bi-chevron-down"></i></a>
                                         <ul class="">
                                             <li><a href="#">Deep Drop Down 1</a></li>
@@ -334,9 +343,14 @@
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-5 col-md-12 footer-info">
-                    <a href="index.html" class="logo d-flex align-items-center">
-                        <span>Company Name</span>
-                    </a>
+                    <div class="section-header">
+                        <h2>
+                            <a href="index.html" class=" d-flex align-items-center">
+                                <span>Company Name</span>
+                            </a>
+                        </h2>
+                    </div>
+
                     <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
                         valies darta
                         donna mare fermentum iaculis eu non diam phasellus.</p>
@@ -370,14 +384,14 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                <div class="col-lg-3 col-md-12 footer-contact  text-md-start">
                     <h4>Contact Us</h4>
                     <p>
-                        A108 Adam Street <br>
-                        New York, NY 535022<br>
-                        United States <br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
+                        A108 Adam Street
+                        New York, NY 535022
+                        United States
+                        <strong>Phone:</strong> +1 5589 55488 55
+                        <strong>Email:</strong> info@example.com
                     </p>
 
                 </div>
@@ -386,21 +400,20 @@
         </div>
 
         <div class="container mt-4">
-            <div class="copyright">
-                &copy; Copyright <strong><span>Company Name</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://Company Name.com/license/ -->
+            <div class="terms-condition">
+                <div class="copyright">
+                    <p>
+                        &copy; Copyright <strong><span>Company Name</span></strong>. All Rights Reserved & Designed by
+                        <a href="https://CompanyName.com/">Company Name</a>
+                    </p>
 
-                Designed by <a href="https://CompanyName.com/">Company Name</a>
+                </div>
+
             </div>
+
         </div>
 
     </footer><!-- End Footer -->
-    <!-- End Footer -->
-
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center" aria-label="switch to top"><i
             class="bi bi-arrow-up-short"></i></a>
 
